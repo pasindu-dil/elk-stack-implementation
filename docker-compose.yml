@@ -22,7 +22,7 @@ services:
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro
       - ./logs:/logs
     ports:
-      - "5044:5044"
+      - "5045:5045"
     depends_on:
       - elasticsearch
     networks:
